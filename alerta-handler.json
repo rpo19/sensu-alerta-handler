@@ -1,0 +1,19 @@
+{
+	"type": "Handler",
+	"api_version": "core/v2",
+	"metadata": {
+		"namespace": "default",
+		"name": "alerta"
+	},
+	"spec": {
+		"type": "pipe",
+		"command": "sensu-alerta-handler",
+		"env_vars": [
+			"ALERTA_ENDPOINT=http://192.168.13.1:8080/alert",
+			"ALERTA_ENVIRONMENT=Development",
+			"KEY=yourkey",
+			"timeout=10"
+		],
+		"timeout": 30
+	}
+}
