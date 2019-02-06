@@ -1,4 +1,4 @@
-To write this handler I modified the slack hadnler at https://github.com/sensu/sensu-slack-handler
+To write this handler I modified the slack handler at https://github.com/sensu/sensu-slack-handler
 
 # Sensu Go Slack Handler
 
